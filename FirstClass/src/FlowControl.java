@@ -22,7 +22,7 @@ public class FlowControl {
             int diff = firstInput - secondInput;
 
 // Checks if the difference between the user inputs are great than or equal to 200
-            if ((diff) > 200) {
+            if (diff >= 200) {
 //Prints the sum
                 System.out.println(diff);
 
